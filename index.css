@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(39, 46, 46);
+    color: white;
+}
+.port_name{
+    color: red;
+    font-size: 50px;
+    font-style: oblique;
+    text-align: center;
+    margin-top: -40px;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 0px white;
+    
+    
+}
+.lii{
+    display: inline;
+    font-size: 23px;
+    padding-left: 30px;
+    
+}
+.ull{
+    margin-left: 850px;
+}
+#nav_bar{
+    background-color: black;
+    padding: 20px;
+    position: fixed;       /* Fix it in place */
+      top: 0;                /* Stick to top */
+      left: 0;               /* Start from left */
+      width: 100%;           /* Full width */
+      background-color: #333;
+      padding: 15px 20px;
+      z-index: 1000;         /* Keep it above other content */
+}
+.aa{
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 7px;
+}
+.aa:hover{
+    background-color: yellow;
+    color: black;
+    border-bottom: 2px black solid;
+    border-top: 2px black solid;
+}
+a:active{
+    color: red;
+}
+#intro{
+    text-align: center;
+    padding-top: 16px;
+    padding-left: 30px;
+    font-size: 50px;
+    color: red;
+    text-shadow: 2px 3px 1px black;
+}
+
+#information{
+    text-align: center;
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 400px;
+}
+.pic_01{
+    transition: all 1s;
+}
+.pic_01:hover{
+    transform: scale(0.7);
+}
+.skill{
+    font-size: 60px;
+    margin-top: -380px;
+    border: 2px solid white;
+    display: flex;
+    padding-top: 0px;
+    width: 150px;
+    margin-left: 100px;
+    box-shadow: 2px 2px 30px black;
+    border-radius: 50%;
+    padding: 15px;
+    background-color: black;
+}
+.div_01{
+    transition: all 0.3s;
+}
+.div_01:hover{
+   transform: translate(5px);
+   border-radius: 0px;
+   cursor: pointer;
+   
+}
+.div1{
+    background-color: white;
+   font-size: 20px;
+    border: 6px solid white;
+    border-width: 40px;
+    display: flex;
+    width: 150px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 30px black;
+    border-radius: 15%;
+    padding: 0px;
+    margin-top: 20px;
+    height: 150px;
+    transition: all 1s;
+        
+}
+.div2{
+    background-color: white;
+    font-size: 20px;
+    border: 6px solid white;
+    border-width: 40px;
+    display: flex;
+    width: 150px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 30px black;
+    border-radius: 15%;
+    padding: 0px;
+    margin-top: -149px;
+    margin-left: 170px;
+    height: 150px;
+    transition: all 1s;
+}
+.div3{
+    background-color: white;
+    font-size: 20px;
+    border: 6px solid white;
+    border-width: 40px;
+    display: flex;
+    width: 150px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 30px black;
+    border-radius: 15%;
+    padding: 0px;
+    margin-top: 20px;
+    height: 150px;
+    transition: all 1s;
+}
+.div4{
+    background-color: white;
+   font-size: 20px;
+    border: 6px solid white;
+    border-width: 40px;
+    display: flex;
+    padding-top: 10px;
+    width: 150px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 30px black;
+    border-radius: 15%;
+    padding: 0px;
+    margin-top: 20px;
+    margin-top: -149px;
+    margin-left: 170px;
+    height: 150px;
+    transition: all 1s;
+}
+.div1:hover {
+     transform: rotate(-360deg);
+     cursor: pointer;
+     scale: 1.5;
+}
+.div2:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+    scale: 1.5;
+}
+.div3:hover {
+    transform: rotate(-360deg);
+    cursor: pointer;
+    scale: 1.5;
+}
+.div4:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+    scale: 1.5;
+}
+.box:hover{
+    transform: none;
+}
+#About{
+    text-align: center;
+    font-size: 80px;
+    text-shadow: 1px 1px 5px red;
+    position: absolute;
+    left: 300px;
+    margin-top: 130px;
+    padding-top: 70px;
+    top: 500px;
+}
+#pic_2{
+    position: absolute;
+    right: 0;
+    top: 750px;
+    right: 50px;
+}
+
+.li_2{
+    text-align: center;
+}
+.ul_2{
+    position: absolute;
+    top: 950px;
+    right: 800px;
+    font-size: 20px;
+}
+#projects{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 1300px;
+    font-size: 60px;
+    margin-top: -20px;
+}
+#but_link{
+    position: absolute;
+    top: 1500px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 1px white;
+    left: 600px;
+    
+}
+#but{
+    font-size: 20px;
+    border: none;
+    background-color: rgb(39, 46, 46);
+    color: white;
+    
+    
+}
+#but_link:hover{
+    background-color: blue;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+#but:hover{
+    background-color: blue;
+    border: none;
+}
+.box{
+    font-size: 40px;
+    position: relative;
+    left: -20px;
+}
+.box_1{
+    text-decoration: none;
+}
+#aabbcc{
+    position: absolute;
+    top: 1650px;
+    left: 600px;
+    text-align: center;
+}
+#
+
+
+
+
+
+
+
+
+
+
+  @keyframes tinyMove {
+    from { transform: translate(0, 0); }
+    to   { transform: translate(5px, -5px); }
+  }
+
+
+  
+{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin: 100px;
+    transition: all 1s;
+}
+{
+    transform: rotate(135deg);
+    scale: 0.6;  
+    cursor: pointer;
+}
